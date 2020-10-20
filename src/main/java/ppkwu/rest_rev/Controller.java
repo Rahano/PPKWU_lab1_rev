@@ -1,8 +1,16 @@
 package ppkwu.rest_rev;
 
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
+
+    @RequestMapping(path = "/revertString")
+    public String reverseString(){
+
+        return null;
+
+    }
 
 }
