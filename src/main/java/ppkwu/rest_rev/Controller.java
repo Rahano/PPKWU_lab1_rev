@@ -10,6 +10,10 @@ public class Controller {
     @RequestMapping(path = "/revertString")
     public String reverseString(@RequestParam(value = "input", required = false) String input){
 
+        StringBuilder revertedString = new StringBuilder();
+        revertedString.append(input);
+        revertedString = revertedString.reverse();
+
         return null;
 
     }
