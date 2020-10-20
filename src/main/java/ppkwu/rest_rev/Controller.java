@@ -14,7 +14,7 @@ public class Controller {
         revertedString.append(input);
         revertedString = revertedString.reverse();
 
-        return null;
+        return revertedString.toString();
 
     }
 
